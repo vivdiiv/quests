@@ -1,0 +1,1 @@
+$execute at @e[tag=$(marker)] as @a[distance=..$(distance)] unless score @s quest.$(num) matches 1.. if score @s quest.new = #quests quest.new run function quests:complete/$(num)
