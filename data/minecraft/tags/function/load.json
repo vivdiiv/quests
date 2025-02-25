@@ -1,0 +1,10 @@
+{
+    "values": [
+        "quests:load",
+        "quests:second",
+        "quests:categories/generic",
+        "quests:categories/mining",
+        "quests:categories/location",
+        "quests:categories/combat"
+    ]
+}

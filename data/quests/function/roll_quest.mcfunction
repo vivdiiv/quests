@@ -1,0 +1,1 @@
+$execute store result storage quests:quests $(num).quest int 1 store result score #quests quest.$(num) run random value 0..$(max)

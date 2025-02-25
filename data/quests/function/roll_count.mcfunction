@@ -1,0 +1,1 @@
+$execute store result score #quests quest.count$(num) run random value $(min)..$(max)

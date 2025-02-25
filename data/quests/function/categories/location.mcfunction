@@ -1,0 +1,1 @@
+data modify storage quests:location 0 set value {"message":'{"text":"Mine Grass Block"}',"score":"quest.mined.grass_block"}

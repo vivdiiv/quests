@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": [{"bold":true,"color":"dark_purple","text":"★ "},"Gacha",{"bold":true,"color":"dark_purple","text":" Ticket "},"★"],
+                "target": "item_name"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "harvest:gacha",
+                  "minecraft:custom_data": {
+                    "gacha": true
+                  }
+                },
+                "conditions": []
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }
